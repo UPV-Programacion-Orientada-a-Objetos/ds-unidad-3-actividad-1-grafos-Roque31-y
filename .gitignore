@@ -1,0 +1,42 @@
+# Archivos compilados
+*.pyc
+__pycache__/
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# Archivos de compilación C++
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+
+# Archivos de Cython
+*.c
+*.cpp
+build/
+dist/
+*.egg-info/
+
+# Datasets (pueden ser muy grandes)
+!requirements.txt
+!test_graph.txt
+*.gz
+*.zip
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
